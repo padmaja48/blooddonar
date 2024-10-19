@@ -1,0 +1,137 @@
+/* General Footer Styling */
+.footer {
+  background-color: #212121;
+  color: #fff;
+  padding: 40px 0;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif; /* Professional, clean font */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 80px; /* Added padding for clean spacing */
+  max-width: 1200px; /* Center the footer content within this width */
+  margin: 0 auto; /* Center the footer on the screen */
+}
+
+.footer-logo-content {
+  flex: 1;
+}
+
+.footer-logo {
+  text-align: left;
+}
+
+.footer-logo h1 {
+  color: #ff9800;
+  font-family: 'Arial Black', sans-serif;
+  margin-bottom: 10px;
+  font-size: 36px; /* Larger heading for impact */
+}
+
+.footer-logo p {
+  font-size: 14px;
+  line-height: 1.7;
+  max-width: 350px;
+  margin-top: 10px; /* Added margin for spacing */
+}
+
+.footer-company,
+.footer-contact {
+  width: 200px; /* Balanced width for consistent layout */
+  text-align: left;
+}
+
+.footer-company h2,
+.footer-contact h2 {
+  margin-bottom: 15px;
+  font-size: 18px; /* Slightly smaller for cleaner look */
+  color: #ff9800;
+}
+
+.footer-company ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-company ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-company ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-company ul li a:hover {
+  color: #ff9800;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.footer-contact p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-contact p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-contact p a:hover {
+  color: #ff9800;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-top: 1px solid #555;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Footer Message for Call-to-Action */
+.footer-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-message p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  max-width: 600px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .footer-company,
+  .footer-contact {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+}
